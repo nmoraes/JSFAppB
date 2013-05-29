@@ -7,7 +7,7 @@
 
 #environment#
 
-.classpath
-.project
-.setting
-.metadata
+*.classpath
+*.project
+*.setting
+*.metadata
