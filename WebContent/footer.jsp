@@ -51,10 +51,7 @@
       -------------------------------------------------- */
       /* Not required for template or sticky footer method. */
 
-      .container {
-        width: auto;
-        max-width: 680px;
-      }
+
       .container .credit {
         margin: 20px 0;
       }
@@ -72,6 +69,6 @@
     </div>
   
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -12,8 +12,9 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
 <jsp:include page ="carousel.jsp"/>
+<jsp:include page ="tresCirculos.jsp"/>
 
-<h1>LOGIN PAGE</h1>
+
 <div align='center'>
 <f:view>
         <p>
