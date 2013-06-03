@@ -16,6 +16,8 @@
 
 
 <div align='center'>
+
+  
 <f:view>
         <p>
             <h:message id="errors" for="User_ID" style="color:red"/>
@@ -23,12 +25,12 @@
     <h:form>
         <h:panelGrid border="1" columns="2">
             <h:outputText value="USER"></h:outputText>
-            <h:inputText id="User" value="#{home.user}" required="true">             
+            <h:inputText  id="User" value="#{home.user}" required="true" >             
             </h:inputText>
             <h:outputText value="PASS"></h:outputText>
             <h:inputText value="#{home.pass}">
            </h:inputText>
-            <h:commandButton action="#{home.entrar}" value="ingresar"></h:commandButton>
+            <h:commandButton action="#{home.entrar}" value="ingresar" styleClass="btn btn-primary"> </h:commandButton>
         </h:panelGrid>
     </h:form>
 </f:view>
